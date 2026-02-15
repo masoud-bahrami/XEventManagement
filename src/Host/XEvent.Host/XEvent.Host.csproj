@@ -14,6 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\CheckIn\Bootstrapper\XEvent.CheckIn.Bootstrapper.csproj" />
+    <ProjectReference Include="..\..\CheckIn\UseCases\XEvent.CheckIn.UseCaseHandlers.csproj" />
     <ProjectReference Include="..\..\EventManagement\Bootstrapper\XEvent.EventManagement.Bootstrapper.csproj" />
     <ProjectReference Include="..\..\EventManagement\UseCases\XEvent.EventManagement.UseCaseHandlers.csproj" />
     <ProjectReference Include="..\..\Payment\Bootstrapper\XEvent.Payment.Bootstrapper.csproj" />

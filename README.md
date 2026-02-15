@@ -32,9 +32,10 @@ The system is designed around **Bounded Contexts (BCs)** with clear responsibili
 XEvent/
 ├── README.md
 ├── src/
-│   ├── EventManagement/   # Event & content management BC
-│   ├── Ticketing/         # Ticket types and capacity BC
+│   ├── EventManagement/  # Event & content management BC
+│   ├── Ticketing/        # Ticket types and capacity BC
 │   ├── Reservation/      # Reservation & attendees BC
+│   ├── Checkin/          # Checkin BC handles check-in features 
 │   ├── Payment/          # Payment BC
 │   ├── Feedback/         # Feedback BC
 │   ├── Reporting/        # Read-model & analytics BC

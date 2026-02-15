@@ -1,5 +1,6 @@
 
 using Quantum.ApplicationService;
+using XEvent.CheckIn.Bootstrapper;
 using XEvent.Payment.Bootstrapper;
 using XEvent.Reporting.Bootstrapper;
 using XEvent.Reservation.Bootstrapper;
@@ -21,6 +22,7 @@ ReportingBootstrapper.Run(builder.Services, builder.Configuration, bootstrapping
 TicketBootstrapper.Run(builder.Services, builder.Configuration, bootstrappingMode);
 PaymentBootstrapper.Run(builder.Services, builder.Configuration, bootstrappingMode);
 ReservationBootstrapper.Run(builder.Services, builder.Configuration, bootstrappingMode);
+CheckInBootstrapper.Run(builder.Services, builder.Configuration, bootstrappingMode);
 
 var app = builder.Build();
 

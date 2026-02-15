@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\Quantum.ApplicationService\Quantum.ApplicationService.csproj" />
+    <ProjectReference Include="..\..\Reservation\XEvent.Reservation.UseCaseHandlers\XEvent.Reservation.UseCaseHandlers.csproj" />
+    <ProjectReference Include="..\Domain\XEvent.CheckIn.Domain.csproj" />
+    <ProjectReference Include="..\UseCases\XEvent.CheckIn.UseCaseHandlers.csproj" />
+  </ItemGroup>
+
+</Project>
