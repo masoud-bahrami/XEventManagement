@@ -41,7 +41,6 @@ XEvent/
 │   ├── Common/           # Shared libraries (Quantum, HATEOAS)
 │   └── Api/              # API layer & controllers
 ├── tests/
-│   ├── UnitTests/
 │   └── AcceptanceTests/
 ├── IaaC/
 │   ├── Dockerfile
