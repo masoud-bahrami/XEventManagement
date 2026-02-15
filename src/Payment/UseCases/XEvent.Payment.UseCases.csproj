@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\Quantum.ApplicationService\Quantum.ApplicationService.csproj" />
+    <ProjectReference Include="..\Domain\Domain\XEvent.Payment.Domain.csproj" />
+    <ProjectReference Include="..\Gateway\XEvent.Payment.Gateway\XEvent.Payment.Gateway.csproj" />
+  </ItemGroup>
+
+</Project>

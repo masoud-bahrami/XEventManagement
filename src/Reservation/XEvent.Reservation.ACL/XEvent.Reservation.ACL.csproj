@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Redis" Version="2.11.0" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Payment\Domain\Domain\XEvent.Payment.Domain.csproj" />
+    <ProjectReference Include="..\..\Tickets\Domain\Contracts\XEvent.Tickets.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\XEvent.Reservation.Domain\XEvent.Reservation.Domain.csproj" />
+    <ProjectReference Include="..\XEvent.Reservation.UseCaseHandlers\XEvent.Reservation.UseCaseHandlers.csproj" />
+  </ItemGroup>
+
+</Project>
